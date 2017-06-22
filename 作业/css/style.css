@@ -1,0 +1,30 @@
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, a,form, fieldset, table, td, img, div, dl, dt, dd, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+ul, ol {list-style-type: none;}
+select, input, img {vertical-align: middle;outline: none;}
+a { text-decoration: none;outline: none;
+    blr:expression(this.onFocus=this.blur());
+}
+/**表示a在获得焦点的同时失去焦点。如果你用的是图片链接什么的，它不会显示周边的虚线*/
+html {
+    font-size:100px;
+    overflow-x: hidden;
+}
+body{
+    font-size:0.2rem;
+    font-family: '微软雅黑', Verdana; background:#f5f5f5;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.box_sizing{-webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box;}
+/*公共样式结束*/
+
+
+
